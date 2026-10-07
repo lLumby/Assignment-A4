@@ -1,7 +1,7 @@
 
 public class Matrix { // Class name is a noun and starts with a uppercase letter
 
-  int n;
+  int n; // 3.1.3 Class and Interface Declarations, The order is correct for declaring the classs
   int m;
 
   int[][] matrix;
