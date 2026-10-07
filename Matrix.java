@@ -29,7 +29,7 @@ public class Matrix { // Class name is a noun and starts with a uppercase letter
   }
 
   public boolean isSquare() { // no space is used in between the method name and the parenthesis (code
-                              // convention from oracle 6.4)
+                              // convention from oracle 6.4), Also the curly bracket appears at the end of the same line as the declaration
     return this.n == this.m;
   }
 
@@ -50,7 +50,8 @@ public class Matrix { // Class name is a noun and starts with a uppercase letter
 
   @Override
   public String toString() {
-    String string = "";
+    String string = ""; // the local is declared and initialized at the beginning of the method, but unclear if its google or Oracle coding convention
+                        // it is both at the beginning of the method (Oracle) but also at the first usage (Google)
 
     for (int i = 0; i < this.n; i++) {
       for (int j = 0; j < this.m; j++) {
