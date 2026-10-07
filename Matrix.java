@@ -31,7 +31,7 @@ public class Matrix { // Class name is a noun and starts with a uppercase letter
   public boolean isSquare() { // no space is used in between the method name and the parenthesis (code
                               // convention from oracle 6.4), Also the curly bracket appears at the end of the same line as the declaration
     return this.n == this.m;
-  }
+  } // 6.4 (oracle) closing curly bracket is line by itself and indented to the same level, matches corresponding opening statement
 
   public Matrix mult(Matrix m) {
     Matrix result = new Matrix(this.m, m.n);
