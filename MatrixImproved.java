@@ -39,8 +39,9 @@ public class Matrix {
 
   public void edit(int row, int column, int newValue) {
 
-    if (row > this.rows || column > this.columns)
+    if (row > this.rows || column > this.columns) {
       return;
+    }
 
     this.matrix[row][column] = newValue;
   }
