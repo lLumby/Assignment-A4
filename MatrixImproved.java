@@ -31,7 +31,7 @@ public class Matrix {
     return this.rows == this.columns;
   }
 
-  public Matrix mult(Matrix m) {
+  public Matrix multiply(Matrix m) {
     Matrix result = new Matrix(this.columns, m.rows);
 
     return result;
